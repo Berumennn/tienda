@@ -1,0 +1,67 @@
+* {
+    font-family: monospace;
+}
+body {
+    font-family: 'Arial', sans-serif; /* Cambia 'Arial' por la fuente futurista deseada */
+    text-align: center;
+    font-size: 24px; /* Ajusta el tamaño del texto según sea necesario */
+    
+    background-image: url(imagenes/fondo-ropa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+ h1 {
+    font-size: 36px; /* Ajusta el tamaño del título según sea necesario */
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+.nav { 
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    border-radius: .5em;
+}
+.section {
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 800px;
+    margin: auto; /* Center horizontally */
+    border-radius: .5em;
+}
+.section .containerP {
+    display: flex;
+    justify-content: center;
+}
+.info {
+    border: 1px black solid;
+    width: 800px;
+    height: 300px;
+}
+.containerT {
+    display: flex;
+    justify-content: center;
+}
+.containerP {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; /* Align items vertically in the center */
+}
+
+.containerPImg, .containerPDesc {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center items within these containers */
+}
+
+.pDesc {
+    align-self: center; /* Ensure paragraphs are centered within their container */
+}
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust as needed */
+}
